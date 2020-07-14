@@ -41,6 +41,14 @@ end
 # end
 # x
 # end
+
+def assign_rooms(attendees)
+attendees.map.with_index do |names, index|
+  "Hello, #{names}! You'll be assigned to room #{index}!"
+end
+end
+
+
 #
 # def printer(attendees)
 #   batch_badge_creator(attendees).each do |badge|
