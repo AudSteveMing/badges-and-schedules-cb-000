@@ -44,7 +44,7 @@ end
 
 def assign_rooms(attendees)
 attendees.map.with_index do |names, index|
-  "Hello, #{names}! You'll be assigned to room #{index}!"
+  "Hello, #{names}! You'll be assigned to room #{index+1}!"
 end
 end
 
