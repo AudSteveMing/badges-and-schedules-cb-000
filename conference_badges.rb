@@ -16,10 +16,8 @@ end
 # end
 
 def batch_badge_creator(array)
-  x = []
   array.map do |names|
     y = "Hello, my name is #{names}."
-    x.push(y)
   end
 end
 
